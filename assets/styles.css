@@ -22,8 +22,14 @@
   display: flex;
   gap: 5px;
 }
-
+.suggestion-item > div {
+  position: relative;
+  width: 100%;
+}
 .omnisearch-result__folder-path {
+  position: absolute;
+  right: 0;
+  top: 0;
   font-size: 0.75rem;
   align-items: center;
   display: flex;
